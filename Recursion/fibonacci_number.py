@@ -1,0 +1,13 @@
+# Problem: Fibonacci Number
+# Topic: Recursion
+# Source: Striver A2Z DSA Sheet
+# LeetCode: https://leetcode.com/problems/fibonacci-number/
+
+class Solution:
+    def fib(self, n: int) -> int:
+        if n==0:
+            return 0
+        elif n==1:
+            return 1
+        else:
+            return self.fib(n-1) + self.fib(n-2)
