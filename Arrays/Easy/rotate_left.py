@@ -4,8 +4,6 @@
 # Source: LeetCode
 
 class Solution:
-
-class Solution:
     def rotate(self, nums, k):
         n = len(nums)
         k %= n
